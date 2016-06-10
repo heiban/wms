@@ -1,0 +1,1 @@
+define(["jquery"],function(n){function i(i,o){"login"==i&&(n(".wrapper-login").show(),n(".wrapper-login .loginBtn").one("click",function(i){o&&o(),n(".wrapper-login").hide()}))}return{init:i}});

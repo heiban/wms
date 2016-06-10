@@ -1,0 +1,3226 @@
+[ 2016-06-09T09:37:22+08:00 ] 127.0.0.1 /api/client/passport/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000536s ]
+
+[ 2016-06-09T09:37:22+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000357s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000454s ]
+
+[ 2016-06-09T09:37:24+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000315s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` IN ('1','2') ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000313s ]
+
+[ 2016-06-09T09:37:25+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000428s ]
+
+[ 2016-06-09T09:37:26+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` IN ('1','2') ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000523s ]
+
+[ 2016-06-09T09:37:27+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000232s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000423s ]
+
+[ 2016-06-09T09:37:28+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` IN ('1','2') ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000285s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000311s ]
+
+[ 2016-06-09T09:37:29+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000257s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000494s ]
+
+[ 2016-06-09T09:37:30+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` IN ('1','2') ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000416s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000457s ]
+
+[ 2016-06-09T09:37:45+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000877s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` IN ('1','2') ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000799s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000870s ]
+
+[ 2016-06-09T09:38:21+08:00 ] 127.0.0.1 /api/client/passport/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000583s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000642s ]
+
+[ 2016-06-09T09:38:21+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000636s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000523s ]
+
+[ 2016-06-09T09:38:23+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` IN ('1','2') ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000532s ]
+
+[ 2016-06-09T09:38:36+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000504s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000574s ]
+
+[ 2016-06-09T09:38:37+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` IN ('1','2') ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000518s ]
+
+[ 2016-06-09T09:38:39+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000448s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000505s ]
+
+[ 2016-06-09T09:38:40+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` IN ('1','2') ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000495s ]
+
+[ 2016-06-09T09:38:41+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000602s ]
+
+[ 2016-06-09T09:38:43+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` IN ('1','2') ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000473s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000535s ]
+
+[ 2016-06-09T09:38:44+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000480s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000537s ]
+
+[ 2016-06-09T09:39:00+08:00 ] 127.0.0.1 /api/client/receipt/del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000244s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0004s ]
+SQL: DELETE FROM `wms_receipt` WHERE `receipt_code` = 'R10609085831333' AND `user_code` = 'U10522102743553' [ RunTime:0.0023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000301s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000333s ]
+
+[ 2016-06-09T09:45:29+08:00 ] 127.0.0.1 /api/client/passport/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000470s ]
+
+[ 2016-06-09T09:45:29+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000481s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000538s ]
+
+[ 2016-06-09T09:45:33+08:00 ] 127.0.0.1 /api/client/receipt/del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000242s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0005s ]
+SQL: DELETE FROM `wms_receipt` WHERE `receipt_code` = 'R10609083651531' AND `user_code` = 'U10522102743553' [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000520s ]
+
+[ 2016-06-09T09:45:45+08:00 ] 127.0.0.1 /api/client/passport/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000235s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000271s ]
+
+[ 2016-06-09T09:45:46+08:00 ] 127.0.0.1 /api/client/passport/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000235s ]
+SQL: SHOW COLUMNS FROM `wms_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wms_user` WHERE `user_name` = 'heiban' AND `user_pwd` = '265665' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000241s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000270s ]
+
+[ 2016-06-09T09:45:46+08:00 ] 127.0.0.1 /api/client/passport/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000233s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000260s ]
+
+[ 2016-06-09T09:45:46+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000437s ]
+
+[ 2016-06-09T09:45:51+08:00 ] 127.0.0.1 /api/client/receipt/del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0004s ]
+SQL: DELETE FROM `wms_receipt` WHERE `receipt_code` = 'R10609091325704' AND `user_code` = 'U10522102743553' [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000495s ]
+
+[ 2016-06-09T09:46:49+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001205s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` IN ('1','2') ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000505s ]
+
+[ 2016-06-09T09:47:22+08:00 ] 127.0.0.1 /api/client/passport/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000219s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000247s ]
+
+[ 2016-06-09T09:47:22+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000424s ]
+
+[ 2016-06-09T09:50:51+08:00 ] 127.0.0.1 /api/client/passport/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000463s ]
+
+[ 2016-06-09T09:50:51+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000493s ]
+
+[ 2016-06-09T09:52:21+08:00 ] 127.0.0.1 /api/client/passport/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000548s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000602s ]
+
+[ 2016-06-09T09:52:21+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000248s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001152s ]
+
+[ 2016-06-09T09:55:37+08:00 ] 127.0.0.1 /api/client/passport/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000685s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000756s ]
+
+[ 2016-06-09T09:55:37+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000531s ]
+
+[ 2016-06-09T09:55:40+08:00 ] 127.0.0.1 /api/client/receipt/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+SQL: SHOW COLUMNS FROM `wms_trace` [ RunTime:0.0004s ]
+SQL: INSERT INTO `wms_trace` (`trace_code`,`trace_records`,`trace_last`) VALUES ('T10609095540995','','') [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0010s ]
+SQL: INSERT INTO `wms_receipt` (`receipt_code`,`receipt_createdate`,`receipt_dcode`,`receipt_dcode2`,`receipt_infor`,`receipt_status`,`trace_code`,`user_code`,`needsync`) VALUES ('R10609095540837','2016-06-09 09:55:40','','','','1','T10609095540995','U10522102743553','0') [ RunTime:0.0007s ]
+ERR: 却少ingoods_list参数!
+
+[ 2016-06-09T09:55:46+08:00 ] 127.0.0.1 /api/data/sku/search?type=sku_name&word=s
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+SQL: SHOW COLUMNS FROM `wms_sku` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wms_sku` WHERE `sku_name` LIKE '%s%'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000301s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000329s ]
+
+[ 2016-06-09T09:55:49+08:00 ] 127.0.0.1 /api/client/receipt/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+SQL: SHOW COLUMNS FROM `wms_trace` [ RunTime:0.0007s ]
+SQL: INSERT INTO `wms_trace` (`trace_code`,`trace_records`,`trace_last`) VALUES ('T10609095549696','','') [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0005s ]
+SQL: INSERT INTO `wms_receipt` (`receipt_code`,`receipt_createdate`,`receipt_dcode`,`receipt_dcode2`,`receipt_infor`,`receipt_status`,`trace_code`,`user_code`,`needsync`) VALUES ('R10609095549171','2016-06-09 09:55:49','','','','1','T10609095549696','U10522102743553','0') [ RunTime:0.0004s ]
+SQL: INSERT INTO `wms_trace` (`trace_code`,`trace_records`,`trace_last`) VALUES ('T10609095549805','','') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wms_ingoods` [ RunTime:0.0004s ]
+ERR: 1048:Column 'ingoods_num' cannot be null
+ [ SQL语句 ] : INSERT INTO `wms_ingoods` (`ingoods_code`,`ingoods_num`,`sku_code`,`receipt_code`,`user_code`) VALUES ('IG10609095549289',NULL,'S10608202829288','R10609095549171','U10522102743553')
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000254s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000286s ]
+
+[ 2016-06-09T09:56:12+08:00 ] 127.0.0.1 /api/data/sku/search?type=sku_name&word=a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+SQL: SHOW COLUMNS FROM `wms_sku` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wms_sku` WHERE `sku_name` LIKE '%a%'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000548s ]
+
+[ 2016-06-09T09:56:31+08:00 ] 127.0.0.1 /api/data/sku/search?type=sku_name&word=m
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+SQL: SHOW COLUMNS FROM `wms_sku` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wms_sku` WHERE `sku_name` LIKE '%m%'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000385s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000422s ]
+
+[ 2016-06-09T09:56:31+08:00 ] 127.0.0.1 /api/data/sku/search?type=sku_name&word=m+l
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+SQL: SHOW COLUMNS FROM `wms_sku` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wms_sku` WHERE `sku_name` LIKE '%m l%'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000423s ]
+
+[ 2016-06-09T09:56:31+08:00 ] 127.0.0.1 /api/data/sku/search?type=sku_name&word=ml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000234s ]
+SQL: SHOW COLUMNS FROM `wms_sku` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wms_sku` WHERE `sku_name` LIKE '%ml%'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000289s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000318s ]
+
+[ 2016-06-09T09:56:36+08:00 ] 127.0.0.1 /api/client/receipt/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `wms_trace` [ RunTime:0.0007s ]
+SQL: INSERT INTO `wms_trace` (`trace_code`,`trace_records`,`trace_last`) VALUES ('T10609095636427','','') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0004s ]
+SQL: INSERT INTO `wms_receipt` (`receipt_code`,`receipt_createdate`,`receipt_dcode`,`receipt_dcode2`,`receipt_infor`,`receipt_status`,`trace_code`,`user_code`,`needsync`) VALUES ('R10609095636623','2016-06-09 09:56:36','','0000','','1','T10609095636427','U10522102743553','0') [ RunTime:0.0006s ]
+SQL: INSERT INTO `wms_trace` (`trace_code`,`trace_records`,`trace_last`) VALUES ('T10609095636550','','') [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `wms_ingoods` [ RunTime:0.0004s ]
+SQL: INSERT INTO `wms_ingoods` (`ingoods_code`,`ingoods_num`,`sku_code`,`receipt_code`,`user_code`) VALUES ('IG10609095636218','1111','S10608202829288','R10609095636623','U10522102743553') [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000404s ]
+
+[ 2016-06-09T09:56:36+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000259s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000409s ]
+
+[ 2016-06-09T09:56:43+08:00 ] 127.0.0.1 /api/client/receipt/del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0004s ]
+SQL: DELETE FROM `wms_receipt` WHERE `receipt_code` = 'R10609095549171' AND `user_code` = 'U10522102743553' [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000410s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000453s ]
+
+[ 2016-06-09T10:05:27+08:00 ] 127.0.0.1 /api/client/passport/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000509s ]
+
+[ 2016-06-09T10:05:27+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000490s ]
+
+[ 2016-06-09T10:05:32+08:00 ] 127.0.0.1 /api/client/receipt/del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0006s ]
+SQL: DELETE FROM `wms_receipt` WHERE `receipt_code` = 'R10609095636623' AND `user_code` = 'U10522102743553' [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000478s ]
+
+[ 2016-06-09T10:05:45+08:00 ] 127.0.0.1 /api/client/receipt/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000233s ]
+SQL: SHOW COLUMNS FROM `wms_trace` [ RunTime:0.0004s ]
+SQL: INSERT INTO `wms_trace` (`trace_code`,`trace_records`,`trace_last`) VALUES ('T10609100545679','','') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0004s ]
+SQL: INSERT INTO `wms_receipt` (`receipt_code`,`receipt_createdate`,`receipt_dcode`,`receipt_dcode2`,`receipt_infor`,`receipt_status`,`trace_code`,`user_code`,`needsync`) VALUES ('R10609100545196','2016-06-09 10:05:45','','','','1','T10609100545679','U10522102743553','0') [ RunTime:0.0003s ]
+ERR: 却少ingoods_list参数!
+
+[ 2016-06-09T10:05:48+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000420s ]
+
+[ 2016-06-09T10:05:52+08:00 ] 127.0.0.1 /api/client/receipt/del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000243s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0005s ]
+SQL: DELETE FROM `wms_receipt` WHERE `receipt_code` = 'R10609100545196' AND `user_code` = 'U10522102743553' [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000339s ]
+
+[ 2016-06-09T10:06:10+08:00 ] 127.0.0.1 /api/client/receipt/del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001405s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0005s ]
+SQL: DELETE FROM `wms_receipt` WHERE `receipt_code` = 'R10609095540837' AND `user_code` = 'U10522102743553' [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000999s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001082s ]
+
+[ 2016-06-09T10:06:19+08:00 ] 127.0.0.1 /api/client/passport/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000220s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000248s ]
+
+[ 2016-06-09T10:06:19+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000396s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000434s ]
+
+[ 2016-06-09T10:06:21+08:00 ] 127.0.0.1 /api/client/passport/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000216s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000241s ]
+
+[ 2016-06-09T10:06:21+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000304s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000336s ]
+
+[ 2016-06-09T10:06:22+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` IN ('1','2') ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000438s ]
+
+[ 2016-06-09T10:06:23+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000343s ]
+
+[ 2016-06-09T10:06:25+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000548s ]
+
+[ 2016-06-09T10:06:28+08:00 ] 127.0.0.1 /api/data/sku/search?type=sku_name&word=m
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000240s ]
+SQL: SHOW COLUMNS FROM `wms_sku` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wms_sku` WHERE `sku_name` LIKE '%m%'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000438s ]
+
+[ 2016-06-09T10:06:28+08:00 ] 127.0.0.1 /api/data/sku/search?type=sku_name&word=ml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000242s ]
+SQL: SHOW COLUMNS FROM `wms_sku` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wms_sku` WHERE `sku_name` LIKE '%ml%'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000424s ]
+
+[ 2016-06-09T10:08:19+08:00 ] 127.0.0.1 /api/client/passport/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000222s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000249s ]
+
+[ 2016-06-09T10:08:19+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000298s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000325s ]
+
+[ 2016-06-09T10:08:20+08:00 ] 127.0.0.1 /api/client/passport/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000241s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000268s ]
+
+[ 2016-06-09T10:08:20+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000590s ]
+
+[ 2016-06-09T10:08:25+08:00 ] 127.0.0.1 /api/client/passport/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000245s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000275s ]
+
+[ 2016-06-09T10:08:26+08:00 ] 127.0.0.1 /api/client/passport/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000243s ]
+SQL: SHOW COLUMNS FROM `wms_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wms_user` WHERE `user_name` = 'heiban' AND `user_pwd` = '265665' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000251s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000280s ]
+
+[ 2016-06-09T10:08:27+08:00 ] 127.0.0.1 /api/client/passport/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000232s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000264s ]
+
+[ 2016-06-09T10:08:27+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000233s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000496s ]
+
+[ 2016-06-09T10:08:33+08:00 ] 127.0.0.1 /api/data/sku/search?type=sku_name&word=%2C
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000257s ]
+SQL: SHOW COLUMNS FROM `wms_sku` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wms_sku` WHERE `sku_name` LIKE '%,%'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000315s ]
+
+[ 2016-06-09T10:08:34+08:00 ] 127.0.0.1 /api/data/sku/search?type=sku_name&word=m
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000246s ]
+SQL: SHOW COLUMNS FROM `wms_sku` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wms_sku` WHERE `sku_name` LIKE '%m%'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000301s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000329s ]
+
+[ 2016-06-09T10:10:04+08:00 ] 127.0.0.1 /api/client/passport/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000230s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000256s ]
+
+[ 2016-06-09T10:10:04+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001138s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000314s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000346s ]
+
+[ 2016-06-09T10:10:07+08:00 ] 127.0.0.1 /api/data/sku/search?type=sku_name&word=m
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+SQL: SHOW COLUMNS FROM `wms_sku` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wms_sku` WHERE `sku_name` LIKE '%m%'  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000439s ]
+
+[ 2016-06-09T10:10:17+08:00 ] 127.0.0.1 /api/client/passport/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000210s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000236s ]
+
+[ 2016-06-09T10:10:18+08:00 ] 127.0.0.1 /api/client/passport/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000232s ]
+SQL: SHOW COLUMNS FROM `wms_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wms_user` WHERE `user_name` = 'heiban' AND `user_pwd` = '265665' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000254s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000283s ]
+
+[ 2016-06-09T10:10:19+08:00 ] 127.0.0.1 /api/client/passport/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000290s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000330s ]
+
+[ 2016-06-09T10:10:19+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000456s ]
+
+[ 2016-06-09T10:10:22+08:00 ] 127.0.0.1 /api/data/sku/search?type=sku_name&word=m
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000232s ]
+SQL: SHOW COLUMNS FROM `wms_sku` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wms_sku` WHERE `sku_name` LIKE '%m%'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000351s ]
+
+[ 2016-06-09T10:10:25+08:00 ] 127.0.0.1 /api/data/sku/search?type=sku_name&word=ml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000256s ]
+SQL: SHOW COLUMNS FROM `wms_sku` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wms_sku` WHERE `sku_name` LIKE '%ml%'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000290s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000318s ]
+
+[ 2016-06-09T10:12:01+08:00 ] 127.0.0.1 /api/client/passport/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000211s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000237s ]
+
+[ 2016-06-09T10:12:02+08:00 ] 127.0.0.1 /api/client/passport/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+SQL: SHOW COLUMNS FROM `wms_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wms_user` WHERE `user_name` = 'heiban' AND `user_pwd` = '265665' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000257s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000287s ]
+
+[ 2016-06-09T10:12:03+08:00 ] 127.0.0.1 /api/client/passport/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000226s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000254s ]
+
+[ 2016-06-09T10:12:03+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000525s ]
+
+[ 2016-06-09T10:12:07+08:00 ] 127.0.0.1 /api/data/sku/search?type=sku_name&word=m
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000246s ]
+SQL: SHOW COLUMNS FROM `wms_sku` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wms_sku` WHERE `sku_name` LIKE '%m%'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000289s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000317s ]
+
+[ 2016-06-09T10:12:09+08:00 ] 127.0.0.1 /api/data/sku/search?type=sku_name&word=%E5%BE%B7%E5%9B%BDschaebens%E9%9B%AA%E6%9C%AC%E8%AF%97%E6%B8%85%E6%B4%81%E9%9D%A2%E8%86%9C2*5mla
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000308s ]
+SQL: SHOW COLUMNS FROM `wms_sku` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wms_sku` WHERE `sku_name` LIKE '%德国schaebens雪本诗清洁面膜2*5mla%'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000311s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000339s ]
+
+[ 2016-06-09T10:12:09+08:00 ] 127.0.0.1 /api/data/sku/search?type=sku_name&word=%E5%BE%B7%E5%9B%BDschaebens%E9%9B%AA%E6%9C%AC%E8%AF%97%E6%B8%85%E6%B4%81%E9%9D%A2%E8%86%9C2*5ml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000245s ]
+SQL: SHOW COLUMNS FROM `wms_sku` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wms_sku` WHERE `sku_name` LIKE '%德国schaebens雪本诗清洁面膜2*5ml%'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000315s ]
+
+[ 2016-06-09T10:12:38+08:00 ] 127.0.0.1 /api/client/passport/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000250s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000284s ]
+
+[ 2016-06-09T10:12:38+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000289s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000316s ]
+
+[ 2016-06-09T10:12:39+08:00 ] 127.0.0.1 /api/client/passport/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000247s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000285s ]
+
+[ 2016-06-09T10:12:39+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000540s ]
+
+[ 2016-06-09T10:12:41+08:00 ] 127.0.0.1 /api/data/sku/search?type=sku_name&word=m
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000264s ]
+SQL: SHOW COLUMNS FROM `wms_sku` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wms_sku` WHERE `sku_name` LIKE '%m%'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000316s ]
+
+[ 2016-06-09T10:12:41+08:00 ] 127.0.0.1 /api/data/sku/search?type=sku_name&word=ml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000252s ]
+SQL: SHOW COLUMNS FROM `wms_sku` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wms_sku` WHERE `sku_name` LIKE '%ml%'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000299s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000329s ]
+
+[ 2016-06-09T10:12:56+08:00 ] 127.0.0.1 /api/client/passport/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000223s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000250s ]
+
+[ 2016-06-09T10:12:57+08:00 ] 127.0.0.1 /api/client/passport/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000231s ]
+SQL: SHOW COLUMNS FROM `wms_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wms_user` WHERE `user_name` = 'heiban' AND `user_pwd` = '265665' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000268s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000299s ]
+
+[ 2016-06-09T10:12:58+08:00 ] 127.0.0.1 /api/client/passport/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000228s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000254s ]
+
+[ 2016-06-09T10:12:58+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000359s ]
+
+[ 2016-06-09T10:13:01+08:00 ] 127.0.0.1 /api/data/sku/search?type=sku_name&word=m
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000245s ]
+SQL: SHOW COLUMNS FROM `wms_sku` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wms_sku` WHERE `sku_name` LIKE '%m%'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000613s ]
+
+[ 2016-06-09T10:13:01+08:00 ] 127.0.0.1 /api/data/sku/search?type=sku_name&word=ml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000249s ]
+SQL: SHOW COLUMNS FROM `wms_sku` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wms_sku` WHERE `sku_name` LIKE '%ml%'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000286s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000314s ]
+
+[ 2016-06-09T10:13:33+08:00 ] 127.0.0.1 /api/client/passport/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000214s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000243s ]
+
+[ 2016-06-09T10:13:34+08:00 ] 127.0.0.1 /api/client/passport/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000237s ]
+SQL: SHOW COLUMNS FROM `wms_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wms_user` WHERE `user_name` = 'heiban' AND `user_pwd` = '265665' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000243s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000272s ]
+
+[ 2016-06-09T10:13:35+08:00 ] 127.0.0.1 /api/client/passport/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000220s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000246s ]
+
+[ 2016-06-09T10:13:35+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000537s ]
+
+[ 2016-06-09T10:13:38+08:00 ] 127.0.0.1 /api/data/sku/search?type=sku_name&word=m
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000247s ]
+SQL: SHOW COLUMNS FROM `wms_sku` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wms_sku` WHERE `sku_name` LIKE '%m%'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000290s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000319s ]
+
+[ 2016-06-09T10:14:18+08:00 ] 127.0.0.1 /api/client/passport/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000445s ]
+
+[ 2016-06-09T10:14:20+08:00 ] 127.0.0.1 /api/client/passport/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000251s ]
+SQL: SHOW COLUMNS FROM `wms_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wms_user` WHERE `user_name` = 'heiban' AND `user_pwd` = '265665' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000269s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000327s ]
+
+[ 2016-06-09T10:14:20+08:00 ] 127.0.0.1 /api/client/passport/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000230s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000258s ]
+
+[ 2016-06-09T10:14:20+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000286s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000516s ]
+
+[ 2016-06-09T10:14:24+08:00 ] 127.0.0.1 /api/data/sku/search?type=sku_name&word=m
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000257s ]
+SQL: SHOW COLUMNS FROM `wms_sku` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wms_sku` WHERE `sku_name` LIKE '%m%'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000325s ]
+
+[ 2016-06-09T10:14:24+08:00 ] 127.0.0.1 /api/data/sku/search?type=sku_name&word=ml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+SQL: SHOW COLUMNS FROM `wms_sku` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wms_sku` WHERE `sku_name` LIKE '%ml%'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000312s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000342s ]
+
+[ 2016-06-09T10:15:39+08:00 ] 127.0.0.1 /api/client/passport/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000215s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000241s ]
+
+[ 2016-06-09T10:15:39+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000435s ]
+
+[ 2016-06-09T10:15:39+08:00 ] 127.0.0.1 /api/client/passport/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000563s ]
+
+[ 2016-06-09T10:15:39+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001035s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000417s ]
+
+[ 2016-06-09T10:15:43+08:00 ] 127.0.0.1 /api/data/sku/search?type=sku_name&word=m
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000234s ]
+SQL: SHOW COLUMNS FROM `wms_sku` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wms_sku` WHERE `sku_name` LIKE '%m%'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000371s ]
+
+[ 2016-06-09T10:22:43+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000321s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000406s ]
+
+[ 2016-06-09T10:22:44+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000347s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000346s ]
+
+[ 2016-06-09T10:22:49+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000314s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000344s ]
+
+[ 2016-06-09T10:22:50+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000353s ]
+
+[ 2016-06-09T10:22:55+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000354s ]
+
+[ 2016-06-09T10:23:06+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` IN ('1','2') ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000337s ]
+
+[ 2016-06-09T10:23:10+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000243s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` IN ('1','2') ORDER BY receipt_createdate DESC LIMIT 15,15   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000534s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000605s ]
+
+[ 2016-06-09T10:23:15+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000247s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000513s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000586s ]
+
+[ 2016-06-09T10:23:16+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000319s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` IN ('1','2') ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000408s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000448s ]
+
+[ 2016-06-09T10:23:17+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000240s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` IN ('1','2') ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000290s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000315s ]
+
+[ 2016-06-09T10:23:17+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000250s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` IN ('1','2') ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000943s ]
+
+[ 2016-06-09T10:23:18+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000303s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000334s ]
+
+[ 2016-06-09T10:23:19+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000249s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` IN ('1','2') ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000385s ]
+
+[ 2016-06-09T10:23:20+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000345s ]
+
+[ 2016-06-09T10:23:22+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` IN ('1','2') ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000387s ]
+
+[ 2016-06-09T10:23:27+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000230s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000365s ]
+
+[ 2016-06-09T10:23:31+08:00 ] 127.0.0.1 /api/data/sku/search?type=sku_name&word=%2C
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000256s ]
+SQL: SHOW COLUMNS FROM `wms_sku` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wms_sku` WHERE `sku_name` LIKE '%,%'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000328s ]
+
+[ 2016-06-09T10:23:32+08:00 ] 127.0.0.1 /api/data/sku/search?type=sku_name&word=m
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+SQL: SHOW COLUMNS FROM `wms_sku` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wms_sku` WHERE `sku_name` LIKE '%m%'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000289s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000317s ]
+
+[ 2016-06-09T10:23:32+08:00 ] 127.0.0.1 /api/data/sku/search?type=sku_name&word=ml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000264s ]
+SQL: SHOW COLUMNS FROM `wms_sku` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wms_sku` WHERE `sku_name` LIKE '%ml%'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000354s ]
+
+[ 2016-06-09T10:23:43+08:00 ] 127.0.0.1 /api/data/sku/search?type=sku_barcode&word=10010608202829288&_=1465438539683
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000247s ]
+SQL: SHOW COLUMNS FROM `wms_sku` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wms_sku` WHERE `sku_barcode` = '10010608202829288'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000282s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000310s ]
+
+[ 2016-06-09T10:23:53+08:00 ] 127.0.0.1 /api/client/receipt/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000312s ]
+SQL: SHOW COLUMNS FROM `wms_trace` [ RunTime:0.0028s ]
+SQL: INSERT INTO `wms_trace` (`trace_code`,`trace_records`,`trace_last`) VALUES ('T10609102353617','','') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0010s ]
+SQL: INSERT INTO `wms_receipt` (`receipt_code`,`receipt_createdate`,`receipt_dcode`,`receipt_dcode2`,`receipt_infor`,`receipt_status`,`trace_code`,`user_code`,`needsync`) VALUES ('R10609102353765','2016-06-09 10:23:53','','','','1','T10609102353617','U10522102743553','0') [ RunTime:0.0005s ]
+SQL: INSERT INTO `wms_trace` (`trace_code`,`trace_records`,`trace_last`) VALUES ('T10609102353916','','') [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `wms_ingoods` [ RunTime:0.0015s ]
+SQL: INSERT INTO `wms_ingoods` (`ingoods_code`,`ingoods_num`,`sku_code`,`receipt_code`,`user_code`) VALUES ('IG10609102353896','1000','S10608202829288','R10609102353765','U10522102743553') [ RunTime:0.0012s ]
+SQL: INSERT INTO `wms_trace` (`trace_code`,`trace_records`,`trace_last`) VALUES ('T10609102353258','','') [ RunTime:0.0005s ]
+SQL: INSERT INTO `wms_ingoods` (`ingoods_code`,`ingoods_num`,`sku_code`,`receipt_code`,`user_code`) VALUES ('IG10609102353572','9000','S10608203108587','R10609102353765','U10522102743553') [ RunTime:0.0004s ]
+SQL: INSERT INTO `wms_trace` (`trace_code`,`trace_records`,`trace_last`) VALUES ('T10609102353122','','') [ RunTime:0.0003s ]
+SQL: INSERT INTO `wms_ingoods` (`ingoods_code`,`ingoods_num`,`sku_code`,`receipt_code`,`user_code`) VALUES ('IG10609102353215','999','S10608202829288','R10609102353765','U10522102743553') [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000295s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000322s ]
+
+[ 2016-06-09T10:23:53+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000251s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000291s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000316s ]
+
+[ 2016-06-09T10:23:56+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000282s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `receipt_code` = 'R10609102353765' AND `user_code` = 'U10522102743553' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wms_ingoods` [ RunTime:0.0006s ]
+NOTIC: [2] Missing argument 1 for Think\Model::join(), called in /Users/wanghui/Work/webserver/wms/thinkphp/Application/Common/Dao/IngoodsDao.class.php on line 43 and defined /Users/wanghui/Work/webserver/wms/thinkphp/ThinkPHP/Library/Think/Model.class.php 第 1848 行.
+NOTIC: [8] Undefined variable: join /Users/wanghui/Work/webserver/wms/thinkphp/ThinkPHP/Library/Think/Model.class.php 第 1851 行.
+SQL: SHOW COLUMNS FROM `wms_ingoods` [ RunTime:0.0006s ]
+SQL: SELECT * FROM wms_ingoods G LEFT JOIN wms_sku S on S.sku_code=G.sku_code  WHERE `receipt_code` = 'R10609102353765' AND `user_code` = 'U10522102743553'  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000413s ]
+
+[ 2016-06-09T10:42:34+08:00 ] 127.0.0.1 /api/client/passport/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000214s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000239s ]
+
+[ 2016-06-09T10:42:34+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000347s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000290s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000316s ]
+
+[ 2016-06-09T10:42:36+08:00 ] 127.0.0.1 /api/client/passport/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000216s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000241s ]
+
+[ 2016-06-09T10:42:36+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000270s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000510s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000580s ]
+
+[ 2016-06-09T10:42:39+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000469s ]
+
+[ 2016-06-09T10:42:40+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000299s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` IN ('1','2') ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000398s ]
+
+[ 2016-06-09T10:42:43+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000258s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` IN ('1','2') ORDER BY receipt_createdate DESC LIMIT 15,15   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000433s ]
+
+[ 2016-06-09T10:42:46+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000280s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` IN ('1','2') ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000649s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000756s ]
+
+[ 2016-06-09T10:42:51+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000505s ]
+
+[ 2016-06-09T10:42:52+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` IN ('1','2') ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000313s ]
+
+[ 2016-06-09T10:45:20+08:00 ] 127.0.0.1 /api/client/passport/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000221s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000247s ]
+
+[ 2016-06-09T10:45:20+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000301s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000326s ]
+
+[ 2016-06-09T10:45:22+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000236s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` IN ('1','2') ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000346s ]
+
+[ 2016-06-09T10:45:26+08:00 ] 127.0.0.1 /api/client/passport/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000497s ]
+
+[ 2016-06-09T10:45:26+08:00 ] 127.0.0.1 /api/client/passport/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000213s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000243s ]
+
+[ 2016-06-09T10:45:28+08:00 ] 127.0.0.1 /api/client/passport/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000239s ]
+SQL: SHOW COLUMNS FROM `wms_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wms_user` WHERE `user_name` = 'heiban' AND `user_pwd` = '265665' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000258s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000290s ]
+
+[ 2016-06-09T10:45:29+08:00 ] 127.0.0.1 /api/client/passport/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000236s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000266s ]
+
+[ 2016-06-09T10:45:29+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000486s ]
+
+[ 2016-06-09T10:45:31+08:00 ] 127.0.0.1 /api/client/passport/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000414s ]
+
+[ 2016-06-09T10:45:31+08:00 ] 127.0.0.1 /api/client/passport/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000309s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000361s ]
+
+[ 2016-06-09T10:45:33+08:00 ] 127.0.0.1 /api/client/passport/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000260s ]
+SQL: SHOW COLUMNS FROM `wms_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wms_user` WHERE `user_name` = 'heiban' AND `user_pwd` = '265665' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000467s ]
+
+[ 2016-06-09T10:45:34+08:00 ] 127.0.0.1 /api/client/passport/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000240s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000269s ]
+
+[ 2016-06-09T10:45:34+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000309s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000448s ]
+
+[ 2016-06-09T10:45:35+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000271s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000330s ]
+
+[ 2016-06-09T10:45:38+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `receipt_code` = 'R10609102353765' AND `user_code` = 'U10522102743553' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wms_ingoods` [ RunTime:0.0006s ]
+NOTIC: [2] Missing argument 1 for Think\Model::join(), called in /Users/wanghui/Work/webserver/wms/thinkphp/Application/Common/Dao/IngoodsDao.class.php on line 43 and defined /Users/wanghui/Work/webserver/wms/thinkphp/ThinkPHP/Library/Think/Model.class.php 第 1848 行.
+NOTIC: [8] Undefined variable: join /Users/wanghui/Work/webserver/wms/thinkphp/ThinkPHP/Library/Think/Model.class.php 第 1851 行.
+SQL: SHOW COLUMNS FROM `wms_ingoods` [ RunTime:0.0005s ]
+SQL: SELECT * FROM wms_ingoods G LEFT JOIN wms_sku S on S.sku_code=G.sku_code  WHERE `receipt_code` = 'R10609102353765' AND `user_code` = 'U10522102743553'  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000392s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000434s ]
+
+[ 2016-06-09T10:45:41+08:00 ] 127.0.0.1 /api/data/sku/search?type=sku_name&word=m
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000237s ]
+SQL: SHOW COLUMNS FROM `wms_sku` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wms_sku` WHERE `sku_name` LIKE '%m%'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000305s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000340s ]
+
+[ 2016-06-09T10:45:48+08:00 ] 127.0.0.1 /api/data/sku/search?type=sku_name&word=ml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000298s ]
+SQL: SHOW COLUMNS FROM `wms_sku` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wms_sku` WHERE `sku_name` LIKE '%ml%'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000481s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000530s ]
+
+[ 2016-06-09T10:46:27+08:00 ] 127.0.0.1 /api/client/receipt/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000235s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `receipt_code` = 'R10609102353765' AND `user_code` = 'U10522102743553' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wms_ingoods` [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 1 for Think\Model::join(), called in /Users/wanghui/Work/webserver/wms/thinkphp/Application/Common/Dao/IngoodsDao.class.php on line 43 and defined /Users/wanghui/Work/webserver/wms/thinkphp/ThinkPHP/Library/Think/Model.class.php 第 1848 行.
+NOTIC: [8] Undefined variable: join /Users/wanghui/Work/webserver/wms/thinkphp/ThinkPHP/Library/Think/Model.class.php 第 1851 行.
+SQL: SHOW COLUMNS FROM `wms_ingoods` [ RunTime:0.0003s ]
+SQL: SELECT * FROM wms_ingoods G LEFT JOIN wms_sku S on S.sku_code=G.sku_code  WHERE `receipt_code` = 'R10609102353765' AND `user_code` = 'U10522102743553'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wms_trace` [ RunTime:0.0003s ]
+SQL: INSERT INTO `wms_trace` (`trace_code`,`trace_records`,`trace_last`) VALUES ('T10609104627540','','') [ RunTime:0.0012s ]
+SQL: INSERT INTO `wms_ingoods` (`ingoods_code`,`ingoods_num`,`sku_code`,`receipt_code`,`user_code`) VALUES ('IG10609104627479','999','S10608203402526','R10609102353765','U10522102743553') [ RunTime:0.0006s ]
+SQL: INSERT INTO `wms_trace` (`trace_code`,`trace_records`,`trace_last`) VALUES ('T10609104627299','','') [ RunTime:0.0004s ]
+SQL: INSERT INTO `wms_ingoods` (`ingoods_code`,`ingoods_num`,`sku_code`,`receipt_code`,`user_code`) VALUES ('IG10609104627485','80','S10608203402526','R10609102353765','U10522102743553') [ RunTime:0.0004s ]
+SQL: INSERT INTO `wms_trace` (`trace_code`,`trace_records`,`trace_last`) VALUES ('T10609104627126','','') [ RunTime:0.0003s ]
+SQL: INSERT INTO `wms_ingoods` (`ingoods_code`,`ingoods_num`,`sku_code`,`receipt_code`,`user_code`) VALUES ('IG10609104627196','9','S10608203153448','R10609102353765','U10522102743553') [ RunTime:0.0003s ]
+SQL: INSERT INTO `wms_trace` (`trace_code`,`trace_records`,`trace_last`) VALUES ('T10609104627702','','') [ RunTime:0.0003s ]
+SQL: INSERT INTO `wms_ingoods` (`ingoods_code`,`ingoods_num`,`sku_code`,`receipt_code`,`user_code`) VALUES ('IG10609104627237','9','S10608203248527','R10609102353765','U10522102743553') [ RunTime:0.0003s ]
+SQL: INSERT INTO `wms_trace` (`trace_code`,`trace_records`,`trace_last`) VALUES ('T10609104627144','','') [ RunTime:0.0004s ]
+SQL: INSERT INTO `wms_ingoods` (`ingoods_code`,`ingoods_num`,`sku_code`,`receipt_code`,`user_code`) VALUES ('IG10609104627145','80','S10608203402526','R10609102353765','U10522102743553') [ RunTime:0.0005s ]
+SQL: INSERT INTO `wms_trace` (`trace_code`,`trace_records`,`trace_last`) VALUES ('T10609104627544','','') [ RunTime:0.0006s ]
+SQL: INSERT INTO `wms_ingoods` (`ingoods_code`,`ingoods_num`,`sku_code`,`receipt_code`,`user_code`) VALUES ('IG10609104627731','900','S10608203108587','R10609102353765','U10522102743553') [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000468s ]
+
+[ 2016-06-09T10:46:27+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000295s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000321s ]
+
+[ 2016-06-09T10:46:30+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `receipt_code` = 'R10609102353765' AND `user_code` = 'U10522102743553' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wms_ingoods` [ RunTime:0.0006s ]
+NOTIC: [2] Missing argument 1 for Think\Model::join(), called in /Users/wanghui/Work/webserver/wms/thinkphp/Application/Common/Dao/IngoodsDao.class.php on line 43 and defined /Users/wanghui/Work/webserver/wms/thinkphp/ThinkPHP/Library/Think/Model.class.php 第 1848 行.
+NOTIC: [8] Undefined variable: join /Users/wanghui/Work/webserver/wms/thinkphp/ThinkPHP/Library/Think/Model.class.php 第 1851 行.
+SQL: SHOW COLUMNS FROM `wms_ingoods` [ RunTime:0.0008s ]
+SQL: SELECT * FROM wms_ingoods G LEFT JOIN wms_sku S on S.sku_code=G.sku_code  WHERE `receipt_code` = 'R10609102353765' AND `user_code` = 'U10522102743553'  [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000423s ]
+
+[ 2016-06-09T10:46:51+08:00 ] 127.0.0.1 /api/client/receipt/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000236s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `receipt_code` = 'R10609102353765' AND `user_code` = 'U10522102743553' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wms_ingoods` [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Model::join(), called in /Users/wanghui/Work/webserver/wms/thinkphp/Application/Common/Dao/IngoodsDao.class.php on line 43 and defined /Users/wanghui/Work/webserver/wms/thinkphp/ThinkPHP/Library/Think/Model.class.php 第 1848 行.
+NOTIC: [8] Undefined variable: join /Users/wanghui/Work/webserver/wms/thinkphp/ThinkPHP/Library/Think/Model.class.php 第 1851 行.
+SQL: SHOW COLUMNS FROM `wms_ingoods` [ RunTime:0.0005s ]
+SQL: SELECT * FROM wms_ingoods G LEFT JOIN wms_sku S on S.sku_code=G.sku_code  WHERE `receipt_code` = 'R10609102353765' AND `user_code` = 'U10522102743553'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000318s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000351s ]
+
+[ 2016-06-09T10:46:51+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000256s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000366s ]
+
+[ 2016-06-09T10:47:16+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000264s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `receipt_code` = 'R10609102353765' AND `user_code` = 'U10522102743553' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wms_ingoods` [ RunTime:0.0007s ]
+NOTIC: [2] Missing argument 1 for Think\Model::join(), called in /Users/wanghui/Work/webserver/wms/thinkphp/Application/Common/Dao/IngoodsDao.class.php on line 43 and defined /Users/wanghui/Work/webserver/wms/thinkphp/ThinkPHP/Library/Think/Model.class.php 第 1848 行.
+NOTIC: [8] Undefined variable: join /Users/wanghui/Work/webserver/wms/thinkphp/ThinkPHP/Library/Think/Model.class.php 第 1851 行.
+SQL: SHOW COLUMNS FROM `wms_ingoods` [ RunTime:0.0008s ]
+SQL: SELECT * FROM wms_ingoods G LEFT JOIN wms_sku S on S.sku_code=G.sku_code  WHERE `receipt_code` = 'R10609102353765' AND `user_code` = 'U10522102743553'  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000384s ]
+
+[ 2016-06-09T10:47:24+08:00 ] 127.0.0.1 /api/client/receipt/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000248s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `receipt_code` = 'R10609102353765' AND `user_code` = 'U10522102743553' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wms_receipt` SET `receipt_dcode`='JJ1002212220011',`receipt_dcode2`='' WHERE `receipt_code` = 'R10609102353765' AND `user_code` = 'U10522102743553' [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `wms_ingoods` [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Model::join(), called in /Users/wanghui/Work/webserver/wms/thinkphp/Application/Common/Dao/IngoodsDao.class.php on line 43 and defined /Users/wanghui/Work/webserver/wms/thinkphp/ThinkPHP/Library/Think/Model.class.php 第 1848 行.
+NOTIC: [8] Undefined variable: join /Users/wanghui/Work/webserver/wms/thinkphp/ThinkPHP/Library/Think/Model.class.php 第 1851 行.
+SQL: SHOW COLUMNS FROM `wms_ingoods` [ RunTime:0.0004s ]
+SQL: SELECT * FROM wms_ingoods G LEFT JOIN wms_sku S on S.sku_code=G.sku_code  WHERE `receipt_code` = 'R10609102353765' AND `user_code` = 'U10522102743553'  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000568s ]
+
+[ 2016-06-09T10:47:24+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2016-06-09T10:47:29+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000234s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` IN ('1','2') ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000381s ]
+
+[ 2016-06-09T10:47:33+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000257s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` IN ('1','2') ORDER BY receipt_createdate DESC LIMIT 15,15   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000558s ]
+
+[ 2016-06-09T10:47:35+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` IN ('1','2') ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000289s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000314s ]
+
+[ 2016-06-09T10:47:37+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000371s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000413s ]
+
+[ 2016-06-09T10:47:37+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000242s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` IN ('1','2') ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000672s ]
+
+[ 2016-06-09T10:47:38+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000305s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000331s ]
+
+[ 2016-06-09T10:47:40+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000409s ]
+
+[ 2016-06-09T10:47:51+08:00 ] 127.0.0.1 /api/client/passport/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000224s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000258s ]
+
+[ 2016-06-09T10:47:52+08:00 ] 127.0.0.1 /api/client/passport/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000243s ]
+SQL: SHOW COLUMNS FROM `wms_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wms_user` WHERE `user_name` = 'heiban' AND `user_pwd` = '265665' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000240s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000269s ]
+
+[ 2016-06-09T10:47:53+08:00 ] 127.0.0.1 /api/client/passport/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000518s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000566s ]
+
+[ 2016-06-09T10:47:53+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000308s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000334s ]
+
+[ 2016-06-09T10:47:56+08:00 ] 127.0.0.1 /api/data/sku/search?type=sku_name&word=m
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000304s ]
+SQL: SHOW COLUMNS FROM `wms_sku` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wms_sku` WHERE `sku_name` LIKE '%m%'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000298s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000328s ]
+
+[ 2016-06-09T10:47:56+08:00 ] 127.0.0.1 /api/data/sku/search?type=sku_name&word=ml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000254s ]
+SQL: SHOW COLUMNS FROM `wms_sku` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wms_sku` WHERE `sku_name` LIKE '%ml%'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000300s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000329s ]
+
+[ 2016-06-09T10:48:04+08:00 ] 127.0.0.1 /api/client/receipt/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000232s ]
+SQL: SHOW COLUMNS FROM `wms_trace` [ RunTime:0.0004s ]
+SQL: INSERT INTO `wms_trace` (`trace_code`,`trace_records`,`trace_last`) VALUES ('T10609104804872','','') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0004s ]
+SQL: INSERT INTO `wms_receipt` (`receipt_code`,`receipt_createdate`,`receipt_dcode`,`receipt_dcode2`,`receipt_infor`,`receipt_status`,`trace_code`,`user_code`,`needsync`) VALUES ('R10609104804330','2016-06-09 10:48:04','','','','1','T10609104804872','U10522102743553','0') [ RunTime:0.0004s ]
+SQL: INSERT INTO `wms_trace` (`trace_code`,`trace_records`,`trace_last`) VALUES ('T10609104804680','','') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wms_ingoods` [ RunTime:0.0004s ]
+SQL: INSERT INTO `wms_ingoods` (`ingoods_code`,`ingoods_num`,`sku_code`,`receipt_code`,`user_code`) VALUES ('IG10609104804974','9000','S10608203108587','R10609104804330','U10522102743553') [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000388s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000427s ]
+
+[ 2016-06-09T10:48:04+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000238s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000313s ]
+
+[ 2016-06-09T10:48:06+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `receipt_code` = 'R10609104804330' AND `user_code` = 'U10522102743553' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wms_ingoods` [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 1 for Think\Model::join(), called in /Users/wanghui/Work/webserver/wms/thinkphp/Application/Common/Dao/IngoodsDao.class.php on line 43 and defined /Users/wanghui/Work/webserver/wms/thinkphp/ThinkPHP/Library/Think/Model.class.php 第 1848 行.
+NOTIC: [8] Undefined variable: join /Users/wanghui/Work/webserver/wms/thinkphp/ThinkPHP/Library/Think/Model.class.php 第 1851 行.
+SQL: SHOW COLUMNS FROM `wms_ingoods` [ RunTime:0.0003s ]
+SQL: SELECT * FROM wms_ingoods G LEFT JOIN wms_sku S on S.sku_code=G.sku_code  WHERE `receipt_code` = 'R10609104804330' AND `user_code` = 'U10522102743553'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000281s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000307s ]
+
+[ 2016-06-09T21:46:41+08:00 ] 127.0.0.1 /api/client/passport/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000644s ]
+
+[ 2016-06-09T21:46:43+08:00 ] 127.0.0.1 /api/client/passport/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000311s ]
+SQL: SHOW COLUMNS FROM `wms_user` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `wms_user` WHERE `user_name` = 'heiban' AND `user_pwd` = '265665' LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000279s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000316s ]
+
+[ 2016-06-09T21:46:43+08:00 ] 127.0.0.1 /api/client/passport/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000739s ]
+
+[ 2016-06-09T21:46:43+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000239s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000554s ]
+
+[ 2016-06-09T21:46:45+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000314s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` IN ('1','2') ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000443s ]
+
+[ 2016-06-09T21:46:46+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000377s ]
+
+[ 2016-06-09T21:53:51+08:00 ] 127.0.0.1 /api/data/sku/search?type=sku_name&word=m
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `wms_sku` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `wms_sku` WHERE `sku_name` LIKE '%m%'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000292s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000324s ]
+
+[ 2016-06-09T21:53:51+08:00 ] 127.0.0.1 /api/data/sku/search?type=sku_name&word=m+l
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000238s ]
+SQL: SHOW COLUMNS FROM `wms_sku` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wms_sku` WHERE `sku_name` LIKE '%m l%'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000310s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000340s ]
+
+[ 2016-06-09T21:53:52+08:00 ] 127.0.0.1 /api/data/sku/search?type=sku_name&word=ml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000236s ]
+SQL: SHOW COLUMNS FROM `wms_sku` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wms_sku` WHERE `sku_name` LIKE '%ml%'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000628s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000698s ]
+
+[ 2016-06-09T21:54:05+08:00 ] 127.0.0.1 /api/client/receipt/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000241s ]
+SQL: SHOW COLUMNS FROM `wms_trace` [ RunTime:0.0013s ]
+SQL: INSERT INTO `wms_trace` (`trace_code`,`trace_records`,`trace_last`) VALUES ('T10609215405783','','') [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0006s ]
+SQL: INSERT INTO `wms_receipt` (`receipt_code`,`receipt_createdate`,`receipt_dcode`,`receipt_dcode2`,`receipt_infor`,`receipt_status`,`trace_code`,`user_code`,`needsync`) VALUES ('R10609215405676','2016-06-09 21:54:05','JJ12332111112','','','1','T10609215405783','U10522102743553','0') [ RunTime:0.0004s ]
+SQL: INSERT INTO `wms_trace` (`trace_code`,`trace_records`,`trace_last`) VALUES ('T10609215405603','','') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wms_ingoods` [ RunTime:0.0011s ]
+SQL: INSERT INTO `wms_ingoods` (`ingoods_code`,`ingoods_num`,`sku_code`,`receipt_code`,`user_code`) VALUES ('IG10609215405319','9000','S10608202829288','R10609215405676','U10522102743553') [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000305s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000339s ]
+
+[ 2016-06-09T21:54:05+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000325s ]
+
+[ 2016-06-09T21:54:10+08:00 ] 127.0.0.1 /api/client/receipt/apply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `receipt_code` = 'R10609215405676' AND `user_code` = 'U10522102743553' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wms_receipt` SET `needsync`='1',`receipt_status`='2',`receipt_createdate`='2016-06-09 21:54:10' WHERE `receipt_code` = 'R10609215405676' AND `user_code` = 'U10522102743553' [ RunTime:0.0022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000396s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2016-06-09T21:54:11+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000294s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` IN ('1','2') ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000310s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000338s ]
+
+[ 2016-06-09T21:54:16+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000233s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` IN ('1','2') ORDER BY receipt_createdate DESC LIMIT 15,15   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000775s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000890s ]
+
+[ 2016-06-09T21:54:24+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000725s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000463s ]
+
+[ 2016-06-09T21:54:25+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000235s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000447s ]
+
+[ 2016-06-09T21:54:52+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000232s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` IN ('1','2') ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000384s ]
+
+[ 2016-06-09T21:54:53+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000232s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000300s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000328s ]
+
+[ 2016-06-09T21:54:54+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` IN ('1','2') ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000583s ]
+
+[ 2016-06-09T21:57:26+08:00 ] 127.0.0.1 /api/client/passport/status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000215s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000240s ]
+
+[ 2016-06-09T21:57:26+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000499s ]
+
+[ 2016-06-09T21:57:27+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000235s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000387s ]
+
+[ 2016-06-09T21:57:28+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000241s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000379s ]
+
+[ 2016-06-09T21:57:29+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000231s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000862s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000941s ]
+
+[ 2016-06-09T21:57:35+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000439s ]
+
+[ 2016-06-09T21:57:36+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000231s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` IN ('1','2') ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000325s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000352s ]
+
+[ 2016-06-09T21:57:37+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000368s ]
+
+[ 2016-06-09T21:57:39+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000247s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` IN ('1','2') ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000681s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000791s ]
+
+[ 2016-06-09T21:57:40+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000531s ]
+
+[ 2016-06-09T21:57:43+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000249s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000463s ]
+
+[ 2016-06-09T21:57:45+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000249s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` IN ('1','2') ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000590s ]
+
+[ 2016-06-09T21:57:46+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000300s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000531s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000636s ]
+
+[ 2016-06-09T21:57:46+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000308s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` IN ('1','2') ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000579s ]
+
+[ 2016-06-09T21:57:48+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000314s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000347s ]
+
+[ 2016-06-09T22:09:58+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` IN ('1','2') ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000375s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000431s ]
+
+[ 2016-06-09T22:09:59+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000279s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000392s ]
+
+[ 2016-06-09T22:10:25+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000234s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` IN ('1','2') ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000305s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000336s ]
+
+[ 2016-06-09T22:10:27+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000308s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000368s ]
+
+[ 2016-06-09T22:10:31+08:00 ] 127.0.0.1 /api/client/receipt/del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000260s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0005s ]
+SQL: DELETE FROM `wms_receipt` WHERE `receipt_code` = 'R10609104804330' AND `user_code` = 'U10522102743553' [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000379s ]
+
+[ 2016-06-09T22:10:35+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `receipt_code` = 'R10609102353765' AND `user_code` = 'U10522102743553' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wms_ingoods` [ RunTime:0.0006s ]
+NOTIC: [2] Missing argument 1 for Think\Model::join(), called in /Users/wanghui/Work/webserver/wms/thinkphp/Application/Common/Dao/IngoodsDao.class.php on line 43 and defined /Users/wanghui/Work/webserver/wms/thinkphp/ThinkPHP/Library/Think/Model.class.php 第 1848 行.
+NOTIC: [8] Undefined variable: join /Users/wanghui/Work/webserver/wms/thinkphp/ThinkPHP/Library/Think/Model.class.php 第 1851 行.
+SQL: SHOW COLUMNS FROM `wms_ingoods` [ RunTime:0.0007s ]
+SQL: SELECT * FROM wms_ingoods G LEFT JOIN wms_sku S on S.sku_code=G.sku_code  WHERE `receipt_code` = 'R10609102353765' AND `user_code` = 'U10522102743553'  [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000371s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000419s ]
+
+[ 2016-06-09T22:10:38+08:00 ] 127.0.0.1 /api/data/sku/search?type=sku_name&word=m
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000235s ]
+SQL: SHOW COLUMNS FROM `wms_sku` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wms_sku` WHERE `sku_name` LIKE '%m%'  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000653s ]
+
+[ 2016-06-09T22:10:38+08:00 ] 127.0.0.1 /api/data/sku/search?type=sku_name&word=m+l
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000339s ]
+SQL: SHOW COLUMNS FROM `wms_sku` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wms_sku` WHERE `sku_name` LIKE '%m l%'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000300s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000328s ]
+
+[ 2016-06-09T22:10:39+08:00 ] 127.0.0.1 /api/data/sku/search?type=sku_name&word=ml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000241s ]
+SQL: SHOW COLUMNS FROM `wms_sku` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wms_sku` WHERE `sku_name` LIKE '%ml%'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000316s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000348s ]
+
+[ 2016-06-09T22:10:50+08:00 ] 127.0.0.1 /api/client/receipt/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000233s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `receipt_code` = 'R10609102353765' AND `user_code` = 'U10522102743553' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wms_receipt` SET `receipt_dcode`='',`receipt_dcode2`='' WHERE `receipt_code` = 'R10609102353765' AND `user_code` = 'U10522102743553' [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wms_ingoods` [ RunTime:0.0007s ]
+NOTIC: [2] Missing argument 1 for Think\Model::join(), called in /Users/wanghui/Work/webserver/wms/thinkphp/Application/Common/Dao/IngoodsDao.class.php on line 43 and defined /Users/wanghui/Work/webserver/wms/thinkphp/ThinkPHP/Library/Think/Model.class.php 第 1848 行.
+NOTIC: [8] Undefined variable: join /Users/wanghui/Work/webserver/wms/thinkphp/ThinkPHP/Library/Think/Model.class.php 第 1851 行.
+SQL: SHOW COLUMNS FROM `wms_ingoods` [ RunTime:0.0006s ]
+SQL: SELECT * FROM wms_ingoods G LEFT JOIN wms_sku S on S.sku_code=G.sku_code  WHERE `receipt_code` = 'R10609102353765' AND `user_code` = 'U10522102743553'  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `wms_trace` [ RunTime:0.0007s ]
+SQL: INSERT INTO `wms_trace` (`trace_code`,`trace_records`,`trace_last`) VALUES ('T10609221050780','','') [ RunTime:0.0006s ]
+SQL: INSERT INTO `wms_ingoods` (`ingoods_code`,`ingoods_num`,`sku_code`,`receipt_code`,`user_code`) VALUES ('IG10609221050941','800','S10608202829288','R10609102353765','U10522102743553') [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000392s ]
+
+[ 2016-06-09T22:10:50+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000294s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `user_code` = 'U10522102743553' AND `needsync` = 0 ORDER BY receipt_createdate DESC LIMIT 0,15   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wms_receipt` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000292s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000318s ]
+
+[ 2016-06-09T22:10:54+08:00 ] 127.0.0.1 /api/client/receipt/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+SQL: SHOW COLUMNS FROM `wms_receipt` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wms_receipt` WHERE `receipt_code` = 'R10609102353765' AND `user_code` = 'U10522102743553' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wms_ingoods` [ RunTime:0.0006s ]
+NOTIC: [2] Missing argument 1 for Think\Model::join(), called in /Users/wanghui/Work/webserver/wms/thinkphp/Application/Common/Dao/IngoodsDao.class.php on line 43 and defined /Users/wanghui/Work/webserver/wms/thinkphp/ThinkPHP/Library/Think/Model.class.php 第 1848 行.
+NOTIC: [8] Undefined variable: join /Users/wanghui/Work/webserver/wms/thinkphp/ThinkPHP/Library/Think/Model.class.php 第 1851 行.
+SQL: SHOW COLUMNS FROM `wms_ingoods` [ RunTime:0.0005s ]
+SQL: SELECT * FROM wms_ingoods G LEFT JOIN wms_sku S on S.sku_code=G.sku_code  WHERE `receipt_code` = 'R10609102353765' AND `user_code` = 'U10522102743553'  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000427s ]
+

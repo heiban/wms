@@ -1,0 +1,1 @@
+define(["jquery"],function(n){function c(c){var i=n(c),t={};i.unbind("click").on("click",function(n){var c=n.target,i=t[c.className];i&&i()}),this.click=function(n){t=n}}return c});

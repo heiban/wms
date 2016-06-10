@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Index</title>
+    <link rel="stylesheet" type="text/css" href="css/cssreset-min.css">
+    <style>
+        div{border: #000000 0px solid}
+        button{outline: none !important;border-radius:0 !important;}
+        body{font-family: "Microsoft YaHei"}
+        .body-wrapper {width: 100%;margin:0 auto;}
+        .body-wrapper .menu-wrapper{float: left;width: 200px; background-color: #393939;position: fixed;top:0;bottom:0}
+        .body-wrapper .content-wrapper{margin-left: 200px;position: relative;background-color: #F8F8F8}
+
+        .logo-menu{height: 40px; line-height: 40px;text-align: center;background-color:#41413f;color: #F8F8F8}
+        .list-menu{color: #F8F8F8;margin-top: 30px;}
+        .list-menu .item-list{line-height: 40px;text-align: center;cursor: pointer;  display: block; color: #ffffff;  text-decoration: inherit;  }
+        .list-menu .active {background-color:#262626;cursor: default}
+
+        .header-content-wrapper{height: 40px;background-color: #eeeeee; box-shadow:0 0 1px #EEEFF3;}
+
+        .main-content-wrapper{background-color: #FFFFFF;padding: 10px;min-width: 800px;  min-height:500px;}
+
+        .main-content-wrapper .module{display: none}
+        .main-content-wrapper .module .tab-module{height: 30px;padding:0; margin-bottom:5px;border-bottom: #EEEFF3 1px solid;font-size: 12px;line-height: 30px;}
+        .main-content-wrapper .module .tab-module .tab{background-color:#EEEFF3;color: #000000;float:left;width: 100px;text-align: center;margin: 0;cursor: pointer;}
+        .main-content-wrapper .module .tab-module .active{background-color:#4cb0f9;color: #FFFFFF;}
+        /*.main-content-wrapper .module .view-module .view{display: none}*/
+        /*.main-content-wrapper .module .view-module .active{display: block}*/
+
+        .popup{position:fixed;top:0;bottom:0;left:0;right:0;display: none}
+        .popup .mask{background-color: #262626; opacity: 0.5;position: fixed;top: 0;bottom: 0;left: 0;right: 0}
+        .popup .container{margin: 40px auto;width: 800px; background-color:#ffffff; position: relative;}
+        .popup .header{height: 30px;border-bottom:1px #dddddd solid;width: 100%;line-height: 30px;}
+        .popup .title{margin-left: 10px;}
+        .popup .header .close{float:right;text-align: center;line-height: 30px; width:30px;cursor: pointer;font-size: 10px; font-family:"Arial"}
+        .popup .body{padding: 10px;height: 400px;}
+        .popup .footer{height: 30px;width: 100%;border-top:1px #dddddd solid;}
+        .popup .footer span{height:26px;width:100px;margin:2px;color:#FFFFFF;line-height:26px;font-size:12px;text-align:center;cursor: pointer}
+        .popup .footer .sure{float: right;background-color:#1B9AF7;}
+        .popup .footer .cancel{float: left;background-color:#9d9d9d;}
+
+        #receiptDialog .info-receipt{border-bottom: #DDDDDD 1px solid}
+        #receiptDialog .info-receipt .receiptImg{float:left;width: 80px;height: 80px;margin: 10px}
+        #receiptDialog .info-receipt .receiptAdd{float: right;width: 80px;height: 80px;margin: 10px; color: #FFFFFF; background-color:#1B9AF7;text-align: center;line-height: 80px;cursor: pointer}
+        #receiptDialog .info-receipt .input-info{margin:0 0 0 100px; padding: 10px;width: 560px;height: 80px; line-height: 40px;font-size: 12px;}
+        #receiptDialog .info-receipt .line-info{height: 40px;}
+        #receiptDialog .info-receipt .receiptName{width: 170px;height: 20px;margin:0 60px 0 10px;}
+        #receiptDialog .info-receipt .receiptBarcode{width: 157px;height: 20px;margin:0 0 0 10px;}
+        #receiptDialog .info-receipt .receiptSize{width: 60px;height: 20px; text-align: center;margin:0 30px 0 10px;}
+        #receiptDialog .info-receipt .receiptWeight{width: 60px;height: 20px; text-align: center;margin:0 30px 0 10px;}
+        #receiptDialog .info-receipt .receiptNorms{width: 60px;height: 20px; text-align: center;margin:0 30px 0 10px;}
+        #receiptDialog .info-receipt .receiptNum{width: 60px;height: 20px; text-align: center;margin:0 30px 0 10px;}
+        #receiptDialog .detail-receipt{padding: 10px;font-size: 12px;line-height: 30px;height: 280px;overflow-y:scroll;}
+        #receiptDialog .detail-receipt .ingoodsTable{ width: 100%;border: 1px #EEEFF1 solid;}
+        #receiptDialog .detail-receipt .ingoodsTable th{text-indent:10px;background-color:#f5f5f5}
+        #receiptDialog .detail-receipt .ingoodsTable td{text-indent:10px;}
+        #receiptDialog .detail-receipt .ingoodsTable span{color: #1B9AF7;text-decoration: underline;cursor: pointer}
+
+        #receiptModule .oper-receipt{height:26px;line-height: 26px;font-size: 12px;padding: 5px}
+        #receiptModule .oper-receipt span{background-color:#1B9AF7;width: 80px;text-align: center;color: #FFFFFF;margin: 0 ;cursor: pointer}
+        #receiptModule .oper-receipt .create{float: left}
+        #receiptModule .oper-receipt .refresh{float: left;width: 50px}
+        #receiptModule .oper-receipt .apply{float: right}
+        #receiptModule .oper-receipt .modify{float: right}
+        #receiptModule .oper-receipt .delete{float: right}
+        #receiptModule .draft-receipt{padding: 5px;font-size: 12px;line-height: 30px;}
+        #receiptModule .draft-receipt .receiptDraftTable{width: 100%;border: 1px #f5f5f5 solid;}
+        #receiptModule .draft-receipt .receiptDraftTable th{text-indent:10px;background-color:#f5f5f5}
+        #receiptModule .draft-receipt .receiptDraftTable td{text-indent:10px;}
+        #receiptModule .draft-receipt .receiptDraftTable .active{background-color: #E9E9E9}
+
+        #receiptModule .active-receipt{padding: 5px;font-size: 12px;line-height: 30px;}
+        #receiptModule .active-receipt .receiptActiveTable {width: 100%;border: 1px #f5f5f5 solid;}
+        #receiptModule .active-receipt .receiptActiveTable th{text-indent:10px;background-color:#f5f5f5}
+        #receiptModule .active-receipt .receiptActiveTable td{text-indent:10px;}
+        #receiptModule .active-receipt .receiptActiveTable .active{background-color: #E9E9E9}
+    </style>
+</head>
+<body>
+<div class="body-wrapper">
+    <div class="menu-wrapper">
+        <div class="logo-menu">LOGO</div>
+        <div class="list-menu">
+            <div class="item-list"></div>
+        </div>
+    </div>
+    <div class="content-wrapper">
+        <div class="header-content-wrapper">
+
+        </div>
+        <div class="main-content-wrapper">
+            <!--receipt module-->
+            <div class="module" id="receiptModule">
+                <div class="tab-module">
+                    <span class="tab active">代申请入仓订单</span>
+                    <span class="tab">已生效入仓订单</span>
+                </div>
+                <div class="view-module">
+                    <div class="view active">
+                        <div class="oper-receipt">
+                            <span class="create">创建申请单</span><span class="refresh">刷新</span>
+                            <span class="apply">提交申请单</span><span class="modify">修改数据</span><span class="delete">删除数据</span>
+                        </div>
+                        <div class="draft-receipt">
+                            <table cellpadding="0" cellspacing="0" border="1" class="receiptDraftTable" >
+                                <tr ><th>申请单编号</th><th>创建时间</th><th>预报物流单号1</th><th>预报物流单号2</th><th>申请单状态</th></tr>
+                                <tr node-data="1" class="active"><td>S11222100012</td><td>20160201 12:12:21</td><td>JJ002110002211</td><td>JJ002110002234</td><td>已创建,未提交</td></tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="view">
+                        <div class="active-receipt">
+                            <table cellpadding="0" cellspacing="0" border="1" class="receiptActiveTable" >
+                                <tr ><th>申请单编号</th><th>创建时间</th><th>预报物流单号1</th><th>预报物流单号2</th><th>申请单状态</th></tr>
+                                <tr node-data="1" class="active"><td>S11222100012</td><td>20160201 12:12:21</td><td>JJ002110002211</td><td>JJ002110002234</td><td>已创建,未提交</td></tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--invoice module-->
+            <div class="module" id="invoiceModule">
+                invoice
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<div class="popup" id="receiptDialog">
+    <div class="mask"></div>
+    <div class="container">
+        <div class="header">
+            <span class="close">X</span><h2 class="title">标题</h2>
+        </div>
+        <div class="body">
+            <div class="content-body">
+                <div class="info-receipt">
+                    <img class="receiptImg"/>
+                    <div class="receiptAdd">添加</div>
+                    <div class="input-info">
+                        <div class="line-info">
+                            <span>商品名称</span><input type="text" class="receiptName" />
+                            <span>商品条码</span><input type="text" class="receiptBarcode" />
+                        </div>
+                        <div class="line-info">
+                            <span>体积</span><input type="text" class="receiptSize" disabled/>
+                            <span>重量</span><input type="text" class="receiptWeight"  disabled/>
+                            <span>规格</span><input type="text" class="receiptNorms"  disabled/>
+                            <span>入仓数量</span><input type="text" class="receiptNum"  />
+                        </div>
+                    </div>
+                </div>
+                <div class="detail-receipt">
+                    <table cellpadding="0" cellspacing="0" border="1" class="ingoodsTable" >
+                        <tr>
+                            <th>仓内编码</th>
+                            <th>商品名称</th>
+                            <th>商品条码</th>
+                            <th>入仓数量</th>
+                            <th>操作</th>
+                        </tr>
+                        <tr>
+                            <td>S11222100012</td>
+                            <td>中华牌香烟</td>
+                            <td>029112992221001</td>
+                            <td>1000</td>
+                            <td><span class="receiptDelete" node-data="1">删除</span></td>
+                        </tr>
+                        <tr>
+                            <td>S11222100012</td>
+                            <td>中华牌香烟</td>
+                            <td>029112992221001</td>
+                            <td>1000</td>
+                            <td><span class="receiptDelete" node-data="2">删除</span></td>
+                        </tr>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <span class="sure">保存修改</span><span class="cancel">放弃修改</span>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="popup" id="invoiceDialog">
+    <div class="mask"></div>
+    <div class="container">
+        <div class="header">
+            <span class="close">X</span>
+            <h2 class="title">标题</h2>
+        </div>
+        <div class="body"></div>
+        <div class="footer">
+            <span class="sure">保存修改</span>
+            <span class="cancel">放弃修改</span>
+        </div>
+    </div>
+</div>
+
+
+
+<script type="text/template" >
+
+</script>
+
+<script data-baseurl="./js/modules/" data-main="./js/main.js" src="./js/libs/require.js" id="main"></script>
+</body>
+</html>

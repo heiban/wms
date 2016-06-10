@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Index</title>
+    <link rel="stylesheet" type="text/css" href="css/cssreset-min.css">
+    <style>
+        input{outline: none;text-indent: 4px;}
+        td,th{border:1px solid #efefef}
+        .globalprogress{background-color:#1B9AF7;z-index:3000;position:absolute;left:0;top:0;height:3px;width:0;border-radius: 10px}
+        /*顶部全局框架样式*/
+        .wrapper-service {width: 100%;margin:0 auto;font-size: 12px;}
+        .wrapper-service .header-wrapper{position:fixed;margin-left:200px;top:0;right:0;left:0;line-height:40px;background-color:#eeeeee;
+            box-shadow:0 0 1px #EEEFF3; z-index: 10;text-align: right}
+        .wrapper-service .header-wrapper .userName{float: right;padding-right: 10px;font-size: 12px}
+        .wrapper-service .header-wrapper .logoutBtn{float: right;padding-right: 10px;font-size: 12px;text-decoration: underline;cursor: pointer;}
+        .wrapper-service .menu-wrapper{float: left;width: 200px; background-color: #393939;position: fixed;top:0;bottom:0}
+        .wrapper-service .content-wrapper{margin-left:200px;position: relative;padding:50px 10px 10px 10px;}
+        /*左侧菜单样式*/
+        .menu-wrapper .logo-menu{height:40px;line-height:40px;text-align: center;background-color:#41413f;color: #F8F8F8}
+        .menu-wrapper .list-menu{color: #F8F8F8;margin-top: 30px;font-size:14px;}
+        .menu-wrapper .list-menu .item-menu{line-height: 40px;text-align:center;cursor:pointer;display:block;color: #ffffff;
+            text-decoration:inherit;}
+        .menu-wrapper .list-menu .active{background-color:#262626;cursor: default}
+        /*右侧内容样式*/
+        .content-wrapper .list-content{background-color:#FFFFFF;min-width: 800px;  min-height:1000px;}
+        .content-wrapper .list-content .item-content{display: none}
+        .content-wrapper .list-content .active{display: block}
+        /*receiptModule tab*/
+        #receiptModule .list-tab{height: 30px;padding:0;border-bottom: #EEEFF3 1px solid;font-size: 12px;line-height: 30px;}
+        #receiptModule .list-tab .item-tab{background-color:#EEEFF3;color: #5e5e5e;float:left;width: 120px;text-align: center;margin: 0;cursor: pointer;}
+        #receiptModule .list-tab .active{background-color:#1B9AF7;color: #FFFFFF;cursor:default}
+        /*receiptModule view*/
+        #receiptModule .list-view{padding-top:10px;}
+        #receiptModule .list-view .item-view{display: none}
+        #receiptModule .list-view .active{display: block}
+        /*receiptDraftModule oper*/
+        #receiptModule .oper-receipt-draft{height:20px;line-height: 20px;}
+        #receiptModule .oper-receipt-draft span{background-color:#1B9AF7;width: 80px;line-height: 20px;text-align: center;color: #FFFFFF;margin: 0 ;cursor: pointer}
+        #receiptModule .oper-receipt-draft .create{float: left;margin-right: 4px;}
+        #receiptModule .oper-receipt-draft .refresh{float: left;width: 50px;margin-right: 4px;}
+        #receiptModule .oper-receipt-draft .apply{float: right;display: none}
+        #receiptModule .oper-receipt-draft .modify{float: left;margin-right: 4px;display: none}
+        #receiptModule .oper-receipt-draft .delete{float: left;margin-right: 4px;display: none}
+        /*receiptDraftModule table*/
+        #receiptModule .table-receipt-draft{padding-top:10px;font-size: 12px;line-height: 30px;}
+        #receiptModule .table-receipt-draft .table{width:100%;border: 1px #f5f5f5 solid;}
+        #receiptModule .table-receipt-draft .table th{text-indent:10px;background-color:#f5f5f5;}
+        #receiptModule .table-receipt-draft .table td{text-indent:10px;}
+        #receiptModule .table-receipt-draft .table .lineactive{background-color: #E9E9E9;}
+        /*receiptActiveModule table*/
+        #receiptModule .table-receipt-active{padding-top:10px;font-size: 12px;line-height: 30px}
+        #receiptModule .table-receipt-active .table{width: 100%;border: 1px #f5f5f5 solid;}
+        #receiptModule .table-receipt-active .table th{text-indent:10px;background-color:#f5f5f5}
+        #receiptModule .table-receipt-active .table td{text-indent:10px;}
+        #receiptModule .table-receipt-active .table .lineactive{background-color: #E9E9E9;}
+        /*receiptActiveModule oper*/
+        #receiptModule .oper-receipt-active{height:20px;line-height: 20px;}
+        #receiptModule .oper-receipt-active span{background-color:#1B9AF7;width: 80px;line-height: 20px;text-align: center;color: #FFFFFF;margin: 0 ;cursor: pointer}
+        #receiptModule .oper-receipt-active .review{float: left;}
+        #receiptModule .oper-receipt-active .pageselect{float: right;width: 80px;line-height: 20px;}
+        /*popup*/
+        .popup{position:fixed;z-index: 10;top:0;bottom:0;left:0;right:0;display: none}
+        .popup .mask{background-color: #262626; opacity: 0.5;filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);position: fixed;top: 0;bottom: 0;left: 0;right: 0}
+        .popup .container{margin: 60px auto;width: 800px; background-color:#ffffff; position: relative;}
+        .popup .header{height: 30px;border-bottom:1px #dddddd solid;width: 100%;line-height: 30px;}
+        .popup .title{margin-left: 10px;}
+        .popup .header .close{float:right;text-align: center;line-height: 30px; width:30px;cursor: pointer;font-size: 10px; font-family:"Arial"}
+        .popup .body{padding: 10px;height: 400px;}
+        .popup .footer{height: 30px;width: 100%;border-top:1px #dddddd solid;}
+        .popup .footer span{height:26px;width:100px;margin:2px;color:#FFFFFF;line-height:26px;font-size:12px;text-align:center;cursor: pointer}
+        .popup .footer .sure{float: right;background-color:#1B9AF7;}
+        .popup .footer .cancel{float: left;background-color:#9d9d9d;}
+        /*receiptDialog*/
+        #receiptDialog{font-size: 12px}
+        #receiptDialog .info-receipt{border-bottom: #DDDDDD 1px solid}
+        #receiptDialog .info-receipt .receiptImg{float:left;width: 80px;height: 80px;margin: 10px}
+        #receiptDialog .info-receipt .receiptAdd{float: right;width: 80px;height: 80px;margin: 10px; color: #FFFFFF; background-color:#1B9AF7;text-align: center;line-height: 80px;cursor: pointer}
+        #receiptDialog .info-receipt .input-info{margin:0 0 0 100px; padding: 10px;width: 560px;height: 80px; line-height: 40px;font-size: 12px;}
+        #receiptDialog .info-receipt .line-info{height: 40px;}
+        #receiptDialog .info-receipt .receiptName{width: 280px;height: 20px;margin:0 30px 0 10px;}
+        #receiptDialog .info-receipt .receiptBarcode{width: 120px;height: 20px;margin:0 0 0 10px;}
+        #receiptDialog .info-receipt .receiptSize{width: 60px;height: 20px; text-align: center;margin:0 30px 0 4px;}
+        #receiptDialog .info-receipt .receiptWeight{width: 60px;height: 20px; text-align: center;margin:0 30px 0 4px;}
+        #receiptDialog .info-receipt .receiptNorms{width: 60px;height: 20px; text-align: center;margin:0 30px 0 4px;}
+        #receiptDialog .info-receipt .receiptNum{width: 60px;height: 20px;text-indent: 0; text-align: center;margin:0 30px 0 10px;}
+        #receiptDialog .detail-receipt{padding: 10px;font-size: 12px;line-height: 30px;height: 250px;overflow-y:scroll;}
+        #receiptDialog .detail-receipt .table{ width: 100%;border: 1px #EEEFF1 solid;}
+        #receiptDialog .detail-receipt .table th{text-indent:10px;background-color:#f5f5f5}
+        #receiptDialog .detail-receipt .table td{text-indent:10px;}
+        #receiptDialog .detail-receipt .table span{color: #1B9AF7;text-decoration: underline;cursor: pointer}
+        #receiptDialog .dcode-receipt{height: 36px;line-height: 36px;padding-left: 10px;border-top: #DDDDDD 1px solid}
+        #receiptDialog .dcode-receipt .receiptDCode{margin:0 10px;height: 20px;}
+        #receiptDialog .dcode-receipt .receiptDCode2{margin:0 10px;height: 20px;}
+
+
+        .autocomplete-suggestions { border: 1px solid #eee; background: #FFF; overflow: auto;font-size:12px;width:auto !important}
+        .autocomplete-suggestion { padding: 2px 5px; white-space: nowrap; overflow: hidden; }
+        .autocomplete-selected { background: #F0F0F0; }
+        .autocomplete-suggestions strong { font-weight: normal; color: #3399FF; }
+        .autocomplete-group { padding: 2px 5px; }
+        .autocomplete-group strong { display: block; border-bottom: 1px solid #000; }
+
+        /*登录相关的样式*/
+        .wrapper-login {width: 100%;margin:0 auto;font-size:12px;background-color:#2f2f2f;position: absolute;top: 0;bottom: 0;right: 0; left: 0;background:url("/static/css/index.jpg") no-repeat center;background-size:100% 100%}
+        .wrapper-login .form-wrapper{width: 300px;height:200px;margin:140px auto;border: 1px solid #FFFFFF;background-color: #FFFFFF;box-shadow: 0 1px 3px 1px #FFFFFF;}
+        .wrapper-login .header-form{line-height: 40px;height: 40px;text-indent: 20px;font-weight: bold;background-color:#1B9AF7;color: #FFFFFF;margin-bottom:20px}
+        .wrapper-login .header-form .tip{color: red;float:right;padding-right:10px;}
+        .wrapper-login .item-form{line-height: 40px;height: 40px;text-indent: 20px;}
+        .wrapper-login .item-form span{width: 80px;display: inline-block}
+        .wrapper-login .item-form input{width: 140px;height: 20px;text-indent: 5px;outline: none;font-family: Arial}
+        .wrapper-login .item-form .loginBtn{text-indent:0;height:26px;width:80px;margin:5px 53px 0 0;color:#FFFFFF;line-height:26px;font-size:12px;text-align:center;cursor: pointer;float: right;background-color:#1B9AF7;}
+    </style>
+</head>
+<body>
+<div class="globalprogress"></div>
+<!--wrapper-login-->
+<div class="wrapper-login" style="display: none">
+    <div class="form-wrapper">
+        <div class="header-form">登录<span class="tip"></span></div>
+        <div class="item-form">
+            <span>用户名:</span>
+            <input type="text" class="loginName" title="用户名" value="heiban"/>
+        </div>
+        <div class="item-form">
+            <span>密&nbsp&nbsp&nbsp&nbsp码:</span>
+            <input type="password" class="loginPwd" title="密码" value="265665"/>
+        </div>
+        <div class="item-form">
+            <span class="loginBtn">登录</span>
+        </div>
+    </div>
+</div>
+<!--wrapper-service-->
+<div class="wrapper-service" style="display: none">
+    <div class="header-wrapper">
+        <span class="logoutBtn">退出系统</span>
+        <span class="userName">用户名</span>
+    </div>
+    <div class="menu-wrapper">
+        <div class="logo-menu">DASHBOARD</div>
+        <div class="list-menu">
+            <div class="item-menu">入仓管理</div>
+            <div class="item-menu">发货管理</div>
+            <div class="item-menu">帐户管理</div>
+            <div class="item-menu">货品管理</div>
+        </div>
+    </div>
+    <div class="content-wrapper">
+        <div class="list-content">
+            <div class="item-content" id="receiptModule">
+                <div class="list-tab">
+                    <span class="item-tab">代申请入仓订单</span>
+                    <span class="item-tab">已生效入仓订单</span>
+                </div>
+                <div class="list-view">
+                    <div class="item-view" id="receiptDraftModule">
+                        <div class="oper-receipt-draft">
+                            <span class="create">创建申请单</span><span class="refresh">刷新</span>
+                            <span class="apply">提交申请单</span><span class="modify">修改数据</span><span class="delete">删除数据</span>
+                        </div>
+
+                        <div class="table-receipt-draft">
+                            <table cellpadding="0" cellspacing="0" border="1" class="table" >
+                                <!--<tr ><th>申请单编号</th><th>创建时间</th><th>预报物流单号1</th><th>预报物流单号2</th><th>申请单状态</th></tr>-->
+                                <!--<tr node-data="1"><td>S11222100012</td><td>20160201 12:12:21</td><td>JJ002110002211</td><td>JJ002110002234</td><td>已创建,未提交</td></tr>-->
+                            </table>
+                        </div>
+                    </div>
+                    <div class="item-view" id="receiptActiveModule">
+                        <div class="oper-receipt-active">
+                            <span class="review">查看</span>
+                            <select class="pageselect">
+                                <option value ="volvo">Volvo</option>
+                                <option value ="saab">Saab</option>
+                                <option value="opel">Opel</option>
+                                <option value="audi">Audi</option>
+                            </select>
+                        </div>
+                        <div class="table-receipt-active">
+                            <table cellpadding="0" cellspacing="0" border="1" class="table" >
+                                <!--<tr ><th>申请单编号</th><th>创建时间</th><th>预报物流单号1</th><th>预报物流单号2</th><th>申请单状态</th></tr>-->
+                                <!--<tr node-data="1"><td>S11222100012</td><td>20160201 12:12:21</td><td>JJ002110002211</td><td>JJ002110002234</td><td>已创建,未提交</td></tr>-->
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item-content" id="invoiceModule">
+                module2
+            </div>
+            <div class="item-content" id="accountModule">
+                module3
+            </div>
+            <div class="item-content" id="goodsModule">
+                module4
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--dialog popup-->
+<div class="popup" id="receiptDialog">
+    <div class="mask"></div>
+    <div class="container">
+        <div class="header">
+            <span class="close">X</span><h2 class="title">标题</h2>
+        </div>
+        <div class="body">
+            <div class="content-body">
+                <div class="info-receipt">
+                    <img class="receiptImg"/>
+                    <div class="receiptAdd">添加</div>
+                    <div class="input-info">
+                        <div class="line-info">
+                            <span>商品名称</span><input type="text" class="receiptName" />
+                            <span>商品条码</span><input type="text" class="receiptBarcode" />
+                        </div>
+                        <div class="line-info">
+                            <span>体积</span><input type="text" class="receiptSize" disabled/>
+                            <span>重量</span><input type="text" class="receiptWeight" disabled/>
+                            <span>规格</span><input type="text" class="receiptNorms" disabled/>
+                            <span>入仓数量</span><input type="text" class="receiptNum"  />
+                        </div>
+                    </div>
+                </div>
+                <div class="detail-receipt">
+                    <table cellpadding="0" cellspacing="0" border="1" class="table" >
+                        <tr>
+                            <th>仓内编码</th>
+                            <th>商品名称</th>
+                            <th>商品条码</th>
+                            <th>入仓数量</th>
+                            <th>操作</th>
+                        </tr>
+                        <tr>
+                            <td>S11222100012</td>
+                            <td>中华牌香烟</td>
+                            <td>029112992221001</td>
+                            <td>1000</td>
+                            <td><span class="receiptDelete" node-data="1">删除</span></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="dcode-receipt">
+                    <span>物流单号1</span><input type="text" class="receiptDCode" />
+                    <span>物流单号2</span><input type="text" class="receiptDCode2" />
+                    <span>(说明:物流单号可以在创建入仓单成功后,提交申请之前填写)</span>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <span class="sure">保存修改</span><span class="cancel">放弃修改</span>
+        </div>
+    </div>
+</div>
+
+
+<script data-baseurl="./js/modules/" data-main="./js/main.js" src="./js/libs/require.js" id="main"></script>
+</body>
+</html>
